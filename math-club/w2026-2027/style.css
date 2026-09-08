@@ -1,0 +1,315 @@
+@font-face {
+    font-family: Neoh;
+    src:url("fonts/GFSNeohellenic.ttf");
+}
+
+a{
+    color: #ff6a6a;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #8b0000;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("images/back.png");
+    background-size: 25%;
+    background-attachment: fixed;
+    text-align: justify;
+    font-family: "Neoh";
+    font-size: 14pt;
+}
+
+.button_old{
+    padding: 5pt;
+    margin: 3pt;
+    background-color: #ff6a6a;
+    border-left: #dfffce 3px solid;
+    border-top: #dfffce 3px solid;
+    border-right: #3d3846 3px solid;
+    border-bottom: #3d3846 3px solid;
+    border-radius: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+.button_old:hover{
+    color: #ffffff;
+    background-color: #8b0000;
+    border-right: #ffd1fb 3px solid;
+    border-bottom: #ffd1fb 3px solid;
+    border-left: #3d3846 3px solid;
+    border-top: #3d3846 3px solid;
+    text-shadow: 1px 1px 0px #000000;
+    cursor: pointer;
+}
+
+.centering{
+    text-align: center;
+}
+
+.content{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+}
+
+.footer{
+    padding: 10pt;
+    background-color: #ff6a6a;
+    border-left: #ffffff 3px solid;
+    border-top: #ffffff 3px solid;
+    border-right: #3d3846 3px solid;
+    border-bottom: #3d3846 3px solid;
+    border-radius: 20px;
+    font-size: 12pt;
+    font-style: italic;
+}
+
+img{
+    width: 30%;
+    border-left: #ffffff 3px solid;
+    border-top: #ffffff 3px solid;
+    border-right: #3d3846 3px solid;
+    border-bottom: #3d3846 3px solid;
+    border-radius: 20px;
+}
+
+.main{
+    padding: 10pt;
+    background-color: #ffffff;
+    border-left: #f6f5f4 3px solid;
+    border-top: #3d3846 3px solid;
+    border-right: #3d3846 3px solid;
+    border-bottom: #3d3846 3px solid;
+    border-radius:  0 0 20px 20px;
+}
+
+.presentation{
+    display: flex;
+}
+
+.presentation_left{
+    width: 80pt;
+    padding: 10pt;
+    background-color: #ff6a6a;
+    border-left: #f6f5f4 3px solid;
+    border-top: #f6f5f4 3px solid;
+    border-right: #3d3846 3px solid;
+    border-bottom: #3d3846 3px solid;
+    border-radius:  20px;
+    text-align: center;
+    text-shadow: 1px 1px 0px white;
+}
+
+.presentation_left_1{
+    font-size: 28pt;
+    text-align: center;
+}
+
+.presentation_left_2{
+    font-size: 12pt;
+    text-align: center;
+}
+
+.presentation_right{
+    width: calc(100% - 80pt);
+    height: 78pt;
+    overflow: hidden;
+    padding: 0pt 10pt 10pt 10pt;
+}
+
+.presentation_footer{
+    position: relative;
+    top: 76pt;
+    padding: 1pt;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 1));
+    text-align: right;
+}
+
+.title_inline{
+    display: flex;
+    background-color: #ffffff;
+    border-left: #ffffff 3px solid;
+    border-top: #ffffff 3px solid;
+    border-right: #3d3846 3px solid;
+    border-bottom: #3d3846 3px solid;
+    border-radius: 20px;
+}
+
+.title_inline a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.title_grand{
+    padding: 10pt;
+    background-color: #ffffff;
+    border-left: #ffffff 3px solid;
+    border-top: #ffffff 3px solid;
+    border-right: #3d3846 3px solid;
+    border-bottom: #3d3846 3px solid;
+    border-radius: 20px;
+}
+
+.title_grand h2{
+    transform: translate(0%, -30%);
+}
+
+.title_grand h2::before{
+    background: url("images/logo.png");
+    background-size: 50px 50px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    content: "";
+    translate: 0% 30%;
+}
+
+.title_main{
+    padding: 10pt;
+    background-color: #ff6a6a;
+    border-left: #ffffff 3px solid;
+    border-top: #ffffff 3px solid;
+    border-right: #3d3846 3px solid;
+    border-radius: 20px 20px 0 0;
+    font-size: 16pt;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+}
+
+.title_menu{
+    display: none;
+}
+
+.title_menu_collapse{
+    display: none;
+}
+
+.title_menu:hover .title_menu_collapse{
+    display: block;
+}
+
+.title_menu_collapse a{
+    color: #ffffff;
+}
+
+.title_pc{
+    display: block;
+}
+
+.title_sub{
+    padding: 3pt;
+    background-color: #d2f5f7;
+    border-left: #ffffff 3px solid;
+    border-top: #ffffff 3px solid;
+    border-right: #3d3846 3px solid;
+    border-bottom: #3d3846 3px solid;
+    border-radius: 20px;
+}
+
+
+#m1::before{
+    content: 'Άννα Γεωργαντίδη, anna.georgantidis';
+}
+
+#m2::before{
+    content: 'Κωνσταντίνος Γρίβας, constantine12grivas';
+}
+
+#m3::before{
+    content: 'Μανώλης Λάρδας, elardas';
+}
+
+#m4::before{
+    content: 'Ορέστης Λιγνός, orelig2006';
+}
+
+#m5::before{
+    content: 'Νεκτάριος Σταυράκης, nstavrak';
+}
+
+#m1::after{
+    content: 'gmail.com';
+}
+
+#m2::after{
+    content: 'gmail.com';
+}
+
+#m3::after{
+    content: 'di.uoa.gr';
+}
+
+#m4::after{
+    content: 'gmail.com';
+}
+
+#m5::after{
+    content: 'math.uoa.gr';
+}
+
+@media screen and (max-width:765px) {
+    
+    body{
+        text-align: left;
+        font-size: 12pt;
+    }
+    
+    img{
+        width: 100%;
+    }
+
+    .presentation{
+        display: block;
+        margin-bottom: 10pt;
+    }
+    
+    .presentation_left{
+        width: calc(100% - 25pt);
+    }
+    
+    .presentation_right{
+        width: calc(100% - 25pt);
+        height: 120pt;
+    }
+    
+    .presentation_footer{
+        top: 120pt;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1));
+    }
+    
+    .title_grand h2{
+        font-size: 12pt;
+    }
+    
+    .title_grand h2::before{
+        translate: 0% 40%;
+    }
+    
+    .title_inline{
+        display: block;
+    }
+    
+    .title_main{
+        font-size: 12pt;
+    }
+    
+    .title_menu{
+        display: block;
+    }
+    
+    .title_pc{
+        display: none;
+    }
+    
+    .title_sub{
+        font-size: 10pt;
+    }
+
+}
