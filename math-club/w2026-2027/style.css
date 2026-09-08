@@ -235,23 +235,23 @@ img{
 }
 
 #m1::after{
-    content: 'gmail.com';
+    content: '@gmail.com';
 }
 
 #m2::after{
-    content: 'gmail.com';
+    content: '@gmail.com';
 }
 
 #m3::after{
-    content: 'di.uoa.gr';
+    content: '@di.uoa.gr';
 }
 
 #m4::after{
-    content: 'gmail.com';
+    content: '@gmail.com';
 }
 
 #m5::after{
-    content: 'math.uoa.gr';
+    content: '@math.uoa.gr';
 }
 
 @media screen and (max-width:765px) {
